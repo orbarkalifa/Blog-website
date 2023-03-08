@@ -12,7 +12,9 @@ const homeStartingContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing 
 const aboutContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut faucibus pulvinar elementum integer enim neque volutpat. Nullam ac tortor vitae purus faucibus ornare suspendisse. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Ut consequat semper viverra nam libero justo laoreet sit amet. Nunc faucibus a pellentesque sit amet. Ac auctor augue mauris augue neque gravida in fermentum. Pharetra massa massa ultricies mi quis.';
 const contactContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean et tortor at risus viverra adipiscing at in. Nisl nunc mi ipsum faucibus vitae. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Elit sed vulputate mi sit amet.';
 
-
+app.get("/", (req,res)=>{
+    app.render('home');
+});
 
 
 

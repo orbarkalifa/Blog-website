@@ -1,2 +1,2 @@
 # Blog-website
-Created using js and ejs 
+Created using js and ejs. minimum html and js
